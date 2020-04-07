@@ -2,7 +2,7 @@
 {
     public interface ILibraryItem
     {
-         int NumberOfCopies { get;  }
+        int NumberOfCopies { get;  set; }
 
         void Display();
     }

@@ -5,7 +5,7 @@ namespace DesignPattern.Structural.Decorator
 {
     public class Book : ILibraryItem
     {
-        public int NumberOfCopies { get; private set; }
+        public int NumberOfCopies { get;  set; }
         public string Author { get; private set; }
         public string Title { get; private set; }
 

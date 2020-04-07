@@ -2,24 +2,17 @@
 {
     public class LibraryItemDecorator : ILibraryItem
     {
-        private ILibraryItem _libraryItem;
-
-        public int NumberOfCopies
-        {
-            get
-            {
-                return _libraryItem.NumberOfCopies;
-            }
-        }
+        public ILibraryItem LibraryItem { get; protected set; }
+        public int NumberOfCopies { get => LibraryItem.NumberOfCopies; set => throw new System.NotImplementedException(); }
 
         public LibraryItemDecorator(ILibraryItem libraryItem)
         {
-            _libraryItem = libraryItem;
+            LibraryItem = libraryItem;
         }
 
         public virtual void Display()
         {
-            _libraryItem.Display();
+            LibraryItem.Display();
         }
     }
 }
