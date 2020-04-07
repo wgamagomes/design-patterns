@@ -4,7 +4,7 @@ namespace DesignPattern.Structural.Decorator.Order
 {
     public abstract class OrderBase
     {
-        private readonly IProductRepository _repository;
+        protected readonly IProductRepository _repository;
 
         public OrderBase(IProductRepository repository)
         {
