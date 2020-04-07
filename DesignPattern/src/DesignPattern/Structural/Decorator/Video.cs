@@ -1,4 +1,6 @@
-﻿namespace DesignPattern.Structural.Decorator
+﻿using System.Diagnostics;
+
+namespace DesignPattern.Structural.Decorator
 {
     public class Video : ILibraryItem
     {
@@ -18,7 +20,9 @@
 
         public void Display()
         {
+            Debug.WriteLine($"[Vídeo] Title: {Title} Director: {Director} Copies: {NumberOfCopies} Playtime: {PlayTime}");
 
+ 
         }
     }
 }

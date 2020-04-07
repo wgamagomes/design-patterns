@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace DesignPattern.Structural.Decorator
 {
@@ -17,7 +18,7 @@ namespace DesignPattern.Structural.Decorator
 
         public void Display()
         {
-            
+            Debug.WriteLine($"[Book] Title: {Title} Author: {Author} Copies: {NumberOfCopies}");
         }
     }
 }

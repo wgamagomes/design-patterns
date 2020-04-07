@@ -2,18 +2,24 @@
 {
     public class LibraryItemDecorator : ILibraryItem
     {
-        public int NumberOfCopies => throw new System.NotImplementedException();
+        private ILibraryItem _libraryItem;
 
-        protected ILibraryItem libraryItem;     
+        public int NumberOfCopies
+        {
+            get
+            {
+                return _libraryItem.NumberOfCopies;
+            }
+        }
 
         public LibraryItemDecorator(ILibraryItem libraryItem)
         {
-            this.libraryItem = libraryItem;
+            _libraryItem = libraryItem;
         }
 
-        public void Display()
+        public virtual void Display()
         {
-            
+            _libraryItem.Display();
         }
     }
 }
