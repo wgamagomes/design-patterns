@@ -8,6 +8,7 @@ namespace DesignPattern.Structural.Decorator.Order
         static void Main()
         {
             var repository = new ProductRepository();
+
             var regularOrder = new RegularOrder(repository);
             Debug.WriteLine(regularOrder.CalculateTotalOrderPrice());            
 

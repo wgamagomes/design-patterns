@@ -1,44 +1,45 @@
-﻿namespace DesignPattern.Creational.Builder
+﻿namespace DesignPattern.Creational.Builder.Vehicle
 {
-    public class ScooterBuilder : VehicleBuilder
+    public class CarBuilder : VehicleBuilder
     {
-
         public override VehicleBuilder WithType()
         {
-            _vehicleType = "Scooter";
+            _vehicleType = "Car";
 
             return this;
         }
-
         public override VehicleBuilder WithFrame()
         {
-            _frame = "Scooter Frame";
+            _frame = "Car Frame";
 
             return this;
         }
 
         public override VehicleBuilder WithEngine()
         {
-            _engine = "50 cc";
+            _engine = "2500 cc";
 
             return this;
         }
 
         public override VehicleBuilder WithWheels()
         {
-            _wheels = "2";
+            _wheels = "4";
 
             return this;
         }
 
         public override VehicleBuilder WithDoors()
         {
-            return base.WithDoors();
+            _doors = "4";
+
+            return this;
         }
 
         public static VehicleBuilder GetInstance()
         {
-            return Create<ScooterBuilder>();
+            return Create<CarBuilder>();
         }
     }
+
 }
