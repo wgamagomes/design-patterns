@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.Structural.Decorator.Order.Entities
+﻿namespace DesignPattern.Entities
 {
     public class Product
     {

@@ -1,7 +1,7 @@
-﻿using DesignPattern.Structural.Decorator.Order.Entities;
+﻿using DesignPattern.Entities;
 using System.Collections.Generic;
 
-namespace DesignPattern.Structural.Decorator.Order.Repositories
+namespace DesignPattern.Interfaces
 {
     public interface IProductRepository
     {

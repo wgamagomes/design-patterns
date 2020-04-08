@@ -1,7 +1,4 @@
-﻿using DesignPattern.Structural.Decorator.Order.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using DesignPattern.Interfaces;
 
 namespace DesignPattern.Structural.Decorator.Order
 {
