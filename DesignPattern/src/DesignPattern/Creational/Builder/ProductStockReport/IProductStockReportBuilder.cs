@@ -2,9 +2,9 @@
 {
     public interface IProductStockReportBuilder
     {
-        void WithHeader();
-        void WithBody();
-        void WithFooter();
+        IProductStockReportBuilder WithHeader();
+        IProductStockReportBuilder WithBody();
+        IProductStockReportBuilder WithFooter();
         ProductStockReport Build();
     }
 }

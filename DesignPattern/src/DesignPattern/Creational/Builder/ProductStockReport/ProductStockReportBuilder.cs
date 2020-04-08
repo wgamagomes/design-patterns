@@ -15,19 +15,22 @@ namespace DesignPattern.Creational.Builder.ProductStockReport
             _productStockReport = new ProductStockReport();
         }
 
-        public void WithHeader()
+        public IProductStockReportBuilder WithHeader()
         {
             _productStockReport.HeaderPart = $"STOCK REPORT FOR ALL THE PRODUCTS ON DATE: {DateTime.Now}\n";
+            return this;
         }
 
-        public void WithBody()
+        public IProductStockReportBuilder WithBody()
         {
             _productStockReport.BodyPart = string.Join(Environment.NewLine, _repository.GetAll().Select(p => $"Product name: {p.Name}, product price: {p.Price}"));
+            return this;
         }
 
-        public void WithFooter()
+        public IProductStockReportBuilder WithFooter()
         {
             _productStockReport.FooterPart = "\nReport provided by the IT_PRODUCTS company.";
+            return this;
         }
 
         public ProductStockReport Build()
