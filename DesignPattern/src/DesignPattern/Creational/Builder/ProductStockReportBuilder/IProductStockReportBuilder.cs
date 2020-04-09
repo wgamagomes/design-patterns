@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.Creational.Builder.ProductStockReport
+﻿namespace DesignPattern.Creational.Builder.ProductStockReportBuilder
 {
     public interface IProductStockReportBuilder
     {

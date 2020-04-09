@@ -1,7 +1,7 @@
 ﻿using DesignPattern.Repositories;
 using System.Diagnostics;
 
-namespace DesignPattern.Creational.Builder.ProductStockReport
+namespace DesignPattern.Creational.Builder.ProductStockReportBuilder
 {
     public class Usage
     {

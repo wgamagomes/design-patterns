@@ -2,7 +2,7 @@
 using System;
 using System.Linq;
 
-namespace DesignPattern.Creational.Builder.ProductStockReport
+namespace DesignPattern.Creational.Builder.ProductStockReportBuilder
 {
     public class ProductStockReportBuilder : IProductStockReportBuilder
     {
