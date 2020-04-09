@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.Creational.Builder.Vehicle
+﻿namespace DesignPattern.Creational.Builder.VehicleBuilder
 {
     public class Usage
     {

@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.Creational.Builder.Vehicle
+﻿namespace DesignPattern.Entities
 {
     public class Vehicle
     {

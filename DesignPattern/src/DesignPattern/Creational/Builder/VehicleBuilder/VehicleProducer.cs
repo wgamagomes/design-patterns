@@ -1,4 +1,6 @@
-﻿namespace DesignPattern.Creational.Builder.Vehicle
+﻿using DesignPattern.Entities;
+
+namespace DesignPattern.Creational.Builder.VehicleBuilder
 {
     public static class VehicleProducer
     {
