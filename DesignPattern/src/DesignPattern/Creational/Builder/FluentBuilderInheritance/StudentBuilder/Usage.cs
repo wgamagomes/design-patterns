@@ -1,7 +1,7 @@
 ﻿using DesignPattern.Entities;
 using System;
 
-namespace DesignPattern.Creational.Builder.FluentBuilderInheritance
+namespace DesignPattern.Creational.Builder.FluentBuilderInheritance.StudentBuilder
 {
     public class Usage
     {

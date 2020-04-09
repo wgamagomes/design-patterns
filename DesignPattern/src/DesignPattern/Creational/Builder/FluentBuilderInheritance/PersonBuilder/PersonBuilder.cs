@@ -2,7 +2,7 @@
 using DesignPattern.Entities;
 using System;
 
-namespace DesignPattern.Creational.Builder.FluentBuilderInheritance
+namespace DesignPattern.Creational.Builder.FluentBuilderInheritance.PersonBuilder
 {
     public class PersonBuilder<TBuilder, TEntity> : Builder<TBuilder, TEntity>
         where TBuilder : PersonBuilder<TBuilder, TEntity>, new()

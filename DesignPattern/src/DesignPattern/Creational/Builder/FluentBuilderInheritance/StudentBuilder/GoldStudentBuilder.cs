@@ -1,6 +1,6 @@
 ﻿using DesignPattern.Entities;
 
-namespace DesignPattern.Creational.Builder.FluentBuilderInheritance
+namespace DesignPattern.Creational.Builder.FluentBuilderInheritance.StudentBuilder
 {
     public class GoldStudentBuilder<TBuilder, TEntity> : StudentBuilder<TBuilder, TEntity>
        where TBuilder : GoldStudentBuilder<TBuilder, TEntity>, new()

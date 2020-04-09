@@ -1,6 +1,7 @@
-﻿using DesignPattern.Entities;
+﻿using DesignPattern.Creational.Builder.FluentBuilderInheritance.PersonBuilder;
+using DesignPattern.Entities;
 
-namespace DesignPattern.Creational.Builder.FluentBuilderInheritance
+namespace DesignPattern.Creational.Builder.FluentBuilderInheritance.StudentBuilder
 {
     public class StudentBuilder<TBuilder, TEntity> : PersonBuilder<TBuilder, TEntity>
        where TBuilder : StudentBuilder<TBuilder, TEntity>, new()
