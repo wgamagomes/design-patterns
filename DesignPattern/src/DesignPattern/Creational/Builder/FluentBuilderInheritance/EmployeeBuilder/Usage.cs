@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace DesignPattern.Creational.Builder.FluentBuilderInheritance
+namespace DesignPattern.Creational.Builder.FluentBuilderInheritance.EmployeeBuilder
 
 {
     public class Usage

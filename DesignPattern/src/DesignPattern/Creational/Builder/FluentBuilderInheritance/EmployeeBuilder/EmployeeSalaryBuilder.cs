@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.Creational.Builder.FluentBuilderInheritance
+﻿namespace DesignPattern.Creational.Builder.FluentBuilderInheritance.EmployeeBuilder
 {
     public class EmployeeSalaryBuilder<TBuilder> : EmployeePositionBuilder<EmployeeSalaryBuilder<TBuilder>> where TBuilder : EmployeeSalaryBuilder<TBuilder>
     {
