@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <Folder Include="Behavioral\ChainOfResponsibility\" />
-    <Folder Include="Behavioral\Strategy\" />
     <Folder Include="Behavioral\TemplateMethod\" />
   </ItemGroup>
 
