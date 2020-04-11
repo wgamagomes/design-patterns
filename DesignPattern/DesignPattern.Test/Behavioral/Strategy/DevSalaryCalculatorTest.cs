@@ -2,6 +2,7 @@
 using DesignPattern.Entities;
 using DesignPattern.Enums;
 using DesignPattern.Test.MockBuilder;
+using FluentAssertions;
 using System.Collections.Generic;
 using Xunit;
 
@@ -60,9 +61,9 @@ namespace DesignPattern.Test.Behavioral.Strategy
         {
             var calculatorContext = new SalaryCalculator(new SeniorDevSalaryCalculator());
 
-            var seniorTotal = calculatorContext.Calculate(_reports);
+            var seniorsTotalSalary = calculatorContext.Calculate(_reports);
 
-            Assert.True(seniorTotal == 10926);
+            seniorsTotalSalary.Should().Be(10926);
         }
 
         [Fact]
@@ -70,9 +71,9 @@ namespace DesignPattern.Test.Behavioral.Strategy
         {
             var calculatorContext = new SalaryCalculator(new JuniorDevSalaryCalculator());
 
-            var juniorTotal = calculatorContext.Calculate(_reports);
+            var juniorsTotalSalary = calculatorContext.Calculate(_reports);
 
-            Assert.True(juniorTotal == 5830);
+            juniorsTotalSalary.Should().Be(5830);
         }
     }
 }
