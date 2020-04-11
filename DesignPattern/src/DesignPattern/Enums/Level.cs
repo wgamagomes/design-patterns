@@ -1,6 +1,6 @@
 ﻿namespace DesignPattern.Enums
 {
-    public enum DeveloperLevel
+    public enum Level
     {
         Senior,
         Junior

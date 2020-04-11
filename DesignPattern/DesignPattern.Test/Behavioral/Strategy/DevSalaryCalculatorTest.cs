@@ -19,10 +19,10 @@ namespace DesignPattern.Test.Behavioral.Strategy
         {
             _reports = new List<Developer>
             {
-                new Developer { Name = "Dev1", Position="Software Developer", Level = DeveloperLevel.Senior, HourlyRate = 30.5, WorkingHours = 160 },
-                new Developer { Name = "Dev2", Position="Software Developer", Level = DeveloperLevel.Junior, HourlyRate = 20, WorkingHours = 120 },
-                new Developer { Name = "Dev3", Position="Software Developer", Level = DeveloperLevel.Senior, HourlyRate = 32.5, WorkingHours = 130 },
-                new Developer { Name = "Dev4", Position="Software Developer", Level = DeveloperLevel.Junior, HourlyRate = 24.5, WorkingHours = 140 }
+                new Developer { Name = "Dev1", Position="Software Developer", Level = Level.Senior, HourlyRate = 30.5, WorkingHours = 160 },
+                new Developer { Name = "Dev2", Position="Software Developer", Level = Level.Junior, HourlyRate = 20, WorkingHours = 120 },
+                new Developer { Name = "Dev3", Position="Software Developer", Level = Level.Senior, HourlyRate = 32.5, WorkingHours = 130 },
+                new Developer { Name = "Dev4", Position="Software Developer", Level = Level.Junior, HourlyRate = 24.5, WorkingHours = 140 }
             };
         }
 
