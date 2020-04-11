@@ -2,7 +2,7 @@
 
 namespace DesignPattern.Entities
 {
-    public class DeveloperReport : Person
+    public class DeveloperReport : Employee
     {
         public DeveloperLevel Level { get; set; }
         public int WorkingHours { get; set; }

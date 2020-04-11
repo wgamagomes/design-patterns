@@ -1,8 +1,7 @@
 ﻿namespace DesignPattern.Entities
 {
-    public class Employee
+    public class Employee : Person
     {
-        public string Name { get; set; }
         public string Position { get; set; }
         public double Salary { get; set; }
 
