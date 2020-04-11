@@ -13,7 +13,7 @@ namespace DesignPattern.Test.MockBuilder
             return (TBuilder)this;
         }
 
-        public TBuilder EarningAHourlyRate(int hourlyRate)
+        public TBuilder EarningAHourlyRate(double hourlyRate)
         {
             Entity.HourlyRate = hourlyRate;
             return (TBuilder)this;

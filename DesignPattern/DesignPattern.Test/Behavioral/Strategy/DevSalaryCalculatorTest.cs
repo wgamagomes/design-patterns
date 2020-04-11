@@ -1,6 +1,7 @@
 ﻿using DesignPattern.Behavioral.Strategy;
 using DesignPattern.Entities;
 using DesignPattern.Enums;
+using DesignPattern.Test.MockBuilder;
 using System.Collections.Generic;
 using Xunit;
 
@@ -19,15 +20,43 @@ namespace DesignPattern.Test.Behavioral.Strategy
         {
             _reports = new List<Developer>
             {
-                new Developer { Name = "Dev1", Position="Software Developer", Level = Level.Senior, HourlyRate = 30.5, WorkingHours = 160 },
-                new Developer { Name = "Dev2", Position="Software Developer", Level = Level.Junior, HourlyRate = 20, WorkingHours = 120 },
-                new Developer { Name = "Dev3", Position="Software Developer", Level = Level.Senior, HourlyRate = 32.5, WorkingHours = 130 },
-                new Developer { Name = "Dev4", Position="Software Developer", Level = Level.Junior, HourlyRate = 24.5, WorkingHours = 140 }
+                 DeveloperBuilderDirector
+                     .NewBuilder()
+                     .WithName("Dev1")
+                     .AtPosition("Software Developer")
+                     .AtLevel(Level.Senior)
+                     .EarningAHourlyRate(30.5)
+                     .OnAWorkingHours(160)
+                     .Build(),
+                  DeveloperBuilderDirector
+                     .NewBuilder()
+                     .WithName("Dev2")
+                     .AtPosition("Software Developer")
+                     .AtLevel(Level.Junior)
+                     .EarningAHourlyRate(20.0)
+                     .OnAWorkingHours(120)
+                     .Build(),
+                   DeveloperBuilderDirector
+                     .NewBuilder()
+                     .WithName("Dev3")
+                     .AtPosition("Software Developer")
+                     .AtLevel(Level.Senior)
+                     .EarningAHourlyRate(32.5)
+                     .OnAWorkingHours(130)
+                     .Build(),
+                    DeveloperBuilderDirector
+                     .NewBuilder()
+                     .WithName("Dev4")
+                     .AtPosition("Software Developer")
+                     .AtLevel(Level.Junior)
+                     .EarningAHourlyRate(24.5)
+                     .OnAWorkingHours(140)
+                     .Build(),
             };
         }
 
         [Fact]
-        public void SeniorSalaryCalculatorTest()
+        public void ShouldObtainTheSeniorsTotalSalary()
         {
             var calculatorContext = new SalaryCalculator(new SeniorDevSalaryCalculator());
 
@@ -37,7 +66,7 @@ namespace DesignPattern.Test.Behavioral.Strategy
         }
 
         [Fact]
-        public void JuniorSalaryCalculatorTest()
+        public void ShouldObtainTheJuniorsTotalSalary()
         {
             var calculatorContext = new SalaryCalculator(new JuniorDevSalaryCalculator());
 

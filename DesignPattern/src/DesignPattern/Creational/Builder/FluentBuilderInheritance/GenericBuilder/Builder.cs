@@ -12,7 +12,7 @@
 
         public TEntity Build() => Entity;
 
-        public static TBuilder Create()
+        public static TBuilder NewBuilder()
         {
             return new TBuilder();
         }

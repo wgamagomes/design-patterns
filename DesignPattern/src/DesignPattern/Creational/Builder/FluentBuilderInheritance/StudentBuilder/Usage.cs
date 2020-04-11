@@ -8,7 +8,7 @@ namespace DesignPattern.Creational.Builder.FluentBuilderInheritance.StudentBuild
         static void Main()
         {
             Student studentSubClass = StudentBuilderDirector
-                .Create()
+                .NewBuilder()
                 .WithHobby("hobby")
                 .WithName("Peter")
                 .WithBorn(DateTime.Now)
@@ -16,7 +16,7 @@ namespace DesignPattern.Creational.Builder.FluentBuilderInheritance.StudentBuild
                 .Build();
 
             GoldStudent goldStudentSubClass = GoldStudentBuilderDirector
-                .Create()
+                .NewBuilder()
                 .WithHobby("hobby")
                 .WithName("Peter")
                 .WithBorn(DateTime.Now)
@@ -25,7 +25,7 @@ namespace DesignPattern.Creational.Builder.FluentBuilderInheritance.StudentBuild
                 .Build();
 
             Person studentSuperClass = StudentBuilderDirector
-                .Create()
+                .NewBuilder()
                 .WithHobby("hobby")
                 .WithName("Peter")
                 .WithBorn(DateTime.Now)
@@ -33,7 +33,7 @@ namespace DesignPattern.Creational.Builder.FluentBuilderInheritance.StudentBuild
                 .Build();
 
             Person goldStudentSuperClass = GoldStudentBuilderDirector
-                .Create()
+                .NewBuilder()
                 .WithHobby("hobby")
                 .WithName("Peter")
                 .WithBorn(DateTime.Now)
