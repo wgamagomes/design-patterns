@@ -4,8 +4,9 @@ using DesignPattern.Enums;
 
 namespace DesignPattern.Test.MockBuilder
 {
-    public class EmployeeBuilder<TBuilder, TEntity>: PersonBuilder<TBuilder,Employee>
+    public class EmployeeBuilder<TBuilder, TEntity>: PersonBuilder<TBuilder, TEntity>
         where TBuilder : EmployeeBuilder<TBuilder, TEntity>, new()
+        where TEntity: Employee, new()
 
     {
         public TBuilder WithSalary(double salary)
