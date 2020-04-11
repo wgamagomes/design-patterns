@@ -8,7 +8,7 @@ namespace DesignPattern.Test.Behavioral.Strategy
 {
     public class DevSalaryCalculatorTest
     {
-        private List<DeveloperReport> _reports;
+        private List<Developer> _reports;
 
         public DevSalaryCalculatorTest()
         {
@@ -17,12 +17,12 @@ namespace DesignPattern.Test.Behavioral.Strategy
 
         private void Setup()
         {
-            _reports = new List<DeveloperReport>
+            _reports = new List<Developer>
             {
-                new DeveloperReport { Name = "Dev1", Position="Software Developer", Level = DeveloperLevel.Senior, HourlyRate = 30.5, WorkingHours = 160 },
-                new DeveloperReport { Name = "Dev2", Position="Software Developer", Level = DeveloperLevel.Junior, HourlyRate = 20, WorkingHours = 120 },
-                new DeveloperReport { Name = "Dev3", Position="Software Developer", Level = DeveloperLevel.Senior, HourlyRate = 32.5, WorkingHours = 130 },
-                new DeveloperReport { Name = "Dev4", Position="Software Developer", Level = DeveloperLevel.Junior, HourlyRate = 24.5, WorkingHours = 140 }
+                new Developer { Name = "Dev1", Position="Software Developer", Level = DeveloperLevel.Senior, HourlyRate = 30.5, WorkingHours = 160 },
+                new Developer { Name = "Dev2", Position="Software Developer", Level = DeveloperLevel.Junior, HourlyRate = 20, WorkingHours = 120 },
+                new Developer { Name = "Dev3", Position="Software Developer", Level = DeveloperLevel.Senior, HourlyRate = 32.5, WorkingHours = 130 },
+                new Developer { Name = "Dev4", Position="Software Developer", Level = DeveloperLevel.Junior, HourlyRate = 24.5, WorkingHours = 140 }
             };
         }
 

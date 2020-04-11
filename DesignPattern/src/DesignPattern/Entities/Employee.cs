@@ -3,7 +3,7 @@
     public class Employee : Person
     {
         public string Position { get; set; }
-        public double Salary { get; set; }
+        public virtual double Salary { get; set; }
 
         public override string ToString()
         {

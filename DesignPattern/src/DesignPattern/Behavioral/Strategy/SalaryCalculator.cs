@@ -16,6 +16,6 @@ namespace DesignPattern.Behavioral.Strategy
 
         public void SetCalculator(ISalaryCalculator calculator) => _calculator = calculator;
 
-        public double Calculate(IEnumerable<DeveloperReport> reports) => _calculator.CalculateTotalSalary(reports);
+        public double Calculate(IEnumerable<Developer> reports) => _calculator.CalculateTotalSalary(reports);
     }
 }

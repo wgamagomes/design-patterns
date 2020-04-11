@@ -2,11 +2,11 @@
 
 namespace DesignPattern.Entities
 {
-    public class DeveloperReport : Employee
+    public class Developer : Employee
     {
         public DeveloperLevel Level { get; set; }
         public int WorkingHours { get; set; }
         public double HourlyRate { get; set; }
-        public double CalculateSalary() => WorkingHours * HourlyRate;
+        public override double Salary => WorkingHours * HourlyRate;
     }
 }

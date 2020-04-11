@@ -7,10 +7,10 @@ namespace DesignPattern.Behavioral.Strategy
 {
     public class JuniorDevSalaryCalculator : ISalaryCalculator
     {
-        public double CalculateTotalSalary(IEnumerable<DeveloperReport> reports) =>
+        public double CalculateTotalSalary(IEnumerable<Developer> reports) =>
             reports
                 .Where(r => r.Level == DeveloperLevel.Junior)
-                .Select(r => r.CalculateSalary())
+                .Select(r => r.Salary)
                 .Sum();
     }
 }

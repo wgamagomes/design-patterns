@@ -6,6 +6,6 @@ namespace DesignPattern.Behavioral.Strategy
     public interface ISalaryCalculator
     {
 
-        double CalculateTotalSalary(IEnumerable<DeveloperReport> reports);
+        double CalculateTotalSalary(IEnumerable<Developer> reports);
     }
 }
