@@ -1,4 +1,4 @@
-﻿using DesignPattern.Entities;
+﻿using DesignPattern.Common.Entities;
 using DesignPattern.Enums.Common;
 using System.Collections.Generic;
 using System.Linq;

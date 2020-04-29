@@ -1,5 +1,5 @@
 ﻿using DesignPattern.Behavioral.Strategy;
-using DesignPattern.Entities;
+using DesignPattern.Common.Entities;
 using DesignPattern.Enums.Common;
 using DesignPattern.Test.MockBuilder;
 using FluentAssertions;

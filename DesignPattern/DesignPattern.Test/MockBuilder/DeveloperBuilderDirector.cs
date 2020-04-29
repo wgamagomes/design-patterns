@@ -1,4 +1,4 @@
-﻿using DesignPattern.Entities;
+﻿using DesignPattern.Common.Entities;
 
 namespace DesignPattern.Test.MockBuilder
 {

@@ -1,6 +1,6 @@
 ﻿using DesignPattern.Enums.Common;
 
-namespace DesignPattern.Entities
+namespace DesignPattern.Common.Entities
 {
     public class Employee : Person
     {

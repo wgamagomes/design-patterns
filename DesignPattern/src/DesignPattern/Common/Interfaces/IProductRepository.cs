@@ -1,4 +1,4 @@
-﻿using DesignPattern.Entities;
+﻿using DesignPattern.Common.Entities;
 using System.Collections.Generic;
 
 namespace DesignPattern.Interfaces.Common

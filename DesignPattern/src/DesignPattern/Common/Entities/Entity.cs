@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DesignPattern.Entities
+namespace DesignPattern.Common.Entities
 {
     public class Entity
     {

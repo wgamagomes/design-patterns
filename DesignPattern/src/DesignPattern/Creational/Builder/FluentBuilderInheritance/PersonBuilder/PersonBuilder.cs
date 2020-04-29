@@ -1,5 +1,5 @@
 ﻿using DesignPattern.Creational.Builder.FluentBuilderInheritance.GenericBuilder;
-using DesignPattern.Entities;
+using DesignPattern.Common.Entities;
 using System;
 
 namespace DesignPattern.Creational.Builder.FluentBuilderInheritance.PersonBuilder

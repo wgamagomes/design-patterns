@@ -1,4 +1,4 @@
-﻿using DesignPattern.Entities;
+﻿using DesignPattern.Common.Entities;
 using System;
 
 namespace DesignPattern.Creational.Builder.FluentBuilderInheritance.StudentBuilder

@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.Entities
+﻿namespace DesignPattern.Common.Entities
 {
     public class Vehicle
     {

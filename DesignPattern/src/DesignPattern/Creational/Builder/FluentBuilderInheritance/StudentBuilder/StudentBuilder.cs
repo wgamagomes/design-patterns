@@ -1,5 +1,5 @@
 ﻿using DesignPattern.Creational.Builder.FluentBuilderInheritance.PersonBuilder;
-using DesignPattern.Entities;
+using DesignPattern.Common.Entities;
 
 namespace DesignPattern.Creational.Builder.FluentBuilderInheritance.StudentBuilder
 {
