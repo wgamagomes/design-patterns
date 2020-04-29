@@ -1,4 +1,4 @@
-﻿using DesignPattern.Interfaces.Common;
+﻿using DesignPattern.Common.Interfaces;
 
 namespace DesignPattern.Structural.Decorator.Order
 {

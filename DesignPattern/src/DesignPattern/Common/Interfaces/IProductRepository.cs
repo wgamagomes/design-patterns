@@ -1,7 +1,7 @@
 ﻿using DesignPattern.Common.Entities;
 using System.Collections.Generic;
 
-namespace DesignPattern.Interfaces.Common
+namespace DesignPattern.Common.Interfaces
 {
     public interface IProductRepository
     {

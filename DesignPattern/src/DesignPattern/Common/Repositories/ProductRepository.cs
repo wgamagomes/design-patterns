@@ -1,5 +1,5 @@
 ﻿using DesignPattern.Common.Entities;
-using DesignPattern.Interfaces.Common;
+using DesignPattern.Common.Interfaces;
 using System;
 using System.Collections.Generic;
 
