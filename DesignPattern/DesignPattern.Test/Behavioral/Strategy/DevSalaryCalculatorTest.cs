@@ -1,6 +1,6 @@
 ﻿using DesignPattern.Behavioral.Strategy;
 using DesignPattern.Common.Entities;
-using DesignPattern.Enums.Common;
+using DesignPattern.Common.Enums;
 using DesignPattern.Test.MockBuilder;
 using FluentAssertions;
 using System.Collections.Generic;
