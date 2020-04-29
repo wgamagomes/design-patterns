@@ -3,7 +3,7 @@ using DesignPattern.Interfaces;
 using System;
 using System.Collections.Generic;
 
-namespace DesignPattern.Repositories
+namespace DesignPattern.Repositories.Common
 {
     public class ProductRepository : IProductRepository
     {

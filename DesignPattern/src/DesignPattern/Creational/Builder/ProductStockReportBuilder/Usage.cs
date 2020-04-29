@@ -1,4 +1,4 @@
-﻿using DesignPattern.Repositories;
+﻿using DesignPattern.Repositories.Common;
 using System.Diagnostics;
 
 namespace DesignPattern.Creational.Builder.ProductStockReportBuilder
