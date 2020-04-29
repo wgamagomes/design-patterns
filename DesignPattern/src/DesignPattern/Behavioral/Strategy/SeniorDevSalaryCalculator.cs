@@ -1,9 +1,7 @@
 ﻿using DesignPattern.Entities;
-using DesignPattern.Enums;
-using System;
+using DesignPattern.Enums.Common;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace DesignPattern.Behavioral.Strategy
 {

@@ -1,6 +1,4 @@
-﻿using DesignPattern.Enums;
-
-namespace DesignPattern.Entities
+﻿namespace DesignPattern.Entities
 {
     public class Developer : Employee
     {      

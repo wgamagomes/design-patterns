@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.Enums
+﻿namespace DesignPattern.Enums.Common
 {
     public enum Level
     {

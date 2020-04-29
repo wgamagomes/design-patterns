@@ -1,6 +1,6 @@
 ﻿using DesignPattern.Creational.Builder.FluentBuilderInheritance.PersonBuilder;
 using DesignPattern.Entities;
-using DesignPattern.Enums;
+using DesignPattern.Enums.Common;
 
 namespace DesignPattern.Test.MockBuilder
 {

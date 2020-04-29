@@ -1,5 +1,5 @@
 ﻿using DesignPattern.Entities;
-using DesignPattern.Enums;
+using DesignPattern.Enums.Common;
 using System.Collections.Generic;
 using System.Linq;
 

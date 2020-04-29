@@ -1,4 +1,4 @@
-﻿using DesignPattern.Enums;
+﻿using DesignPattern.Enums.Common;
 
 namespace DesignPattern.Entities
 {
