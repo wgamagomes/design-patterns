@@ -1,4 +1,6 @@
-﻿namespace DesignPattern.Creational.AbstractFactory
+﻿using DesignPattern.Creational.AbstractFactory.Factories;
+
+namespace DesignPattern.Creational.AbstractFactory
 {
     public class TowingService
     {
