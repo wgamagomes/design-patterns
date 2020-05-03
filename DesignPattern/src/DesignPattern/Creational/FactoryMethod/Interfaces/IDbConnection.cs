@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DesignPattern.Creational.FactoryMethod.Interfaces
+﻿namespace DesignPattern.Creational.FactoryMethod.Interfaces
 {
     public interface IDbConnection
     {
