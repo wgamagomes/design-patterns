@@ -12,7 +12,7 @@ namespace DesignPattern.Creational.FactoryMethod
         }
 
         public void Close()
-        {           
+        {
             IsOpen = false;
         }
 
@@ -24,4 +24,4 @@ namespace DesignPattern.Creational.FactoryMethod
         }
     }
 }
-}
+
