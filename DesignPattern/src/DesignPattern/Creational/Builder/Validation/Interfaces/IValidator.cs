@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DesignPattern.Creational.Builder.Validation.Interfaces
+﻿namespace DesignPattern.Creational.Builder.Validation.Interfaces
 {
     public interface IValidator<TValidable>
+         where TValidable : IValidable
     {
         void Validate(TValidable @object);
     }
