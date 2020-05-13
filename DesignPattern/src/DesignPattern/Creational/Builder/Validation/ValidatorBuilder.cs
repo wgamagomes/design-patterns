@@ -24,5 +24,10 @@ namespace DesignPattern.Creational.Builder.Validation
 
             return this;
         }
+
+        public Validator<TValidable> Build()
+        {
+            return new Validator<TValidable>(_validators);
+        }
     }
 }
